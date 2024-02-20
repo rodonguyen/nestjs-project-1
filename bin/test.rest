@@ -1,2 +1,19 @@
+
+POST http://localhost:3333/auth/signup
+Content-Type: application/json
+
+{
+    "email": "asdgf@ggg.com",
+    "password": "12"
+}
+
+###
 POST http://localhost:3333/auth/signin
 Content-Type: application/json
+
+{
+    "email": "asdgf@ggg.com",
+    "password": "12"
+}
+
+###
